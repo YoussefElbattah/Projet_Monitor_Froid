@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" pages="2">
+  <diagram name="Diagramme Use Case" id="N9tA2H-7arS8vDoDJfZL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mTiminrRkidIak2jVwdM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="420" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-3" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-2" style="endArrow=none;html=1;rounded=0;exitX=0.002;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.998;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="mTiminrRkidIak2jVwdM-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagramme de contexte système cold track" vertex="1">
+          <mxGeometry height="30" width="210" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gestionnaire de Flotte" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Localiser les vehicules et Consulter les trajets" vertex="1">
+          <mxGeometry height="70" width="150" x="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Surveiller la température et l&#39;humidité" vertex="1">
+          <mxGeometry height="60" width="145" x="382.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consulter l&#39;historique et exporter des rapports" vertex="1">
+          <mxGeometry height="60" width="140" x="385" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consulter l&#39;état du tracker GNSS / 4G / Batterie" vertex="1">
+          <mxGeometry height="60" width="140" x="390" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Configurer les seuils et les notifications&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="140" x="385" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Recevoir les Alertes Température / batterie / Sonde" vertex="1">
+          <mxGeometry height="60" width="140" x="390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Associer un tracker à un véhicule" vertex="1">
+          <mxGeometry height="60" width="140" x="390" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-20" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-5" style="endArrow=none;html=1;rounded=0;entryX=0.051;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;" target="mTiminrRkidIak2jVwdM-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="230" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-21" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-5" style="endArrow=none;html=1;rounded=0;entryX=0.041;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="mTiminrRkidIak2jVwdM-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="340" as="sourcePoint" />
+            <mxPoint x="220" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-22" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mTiminrRkidIak2jVwdM-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mTiminrRkidIak2jVwdM-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="310" as="sourcePoint" />
+            <mxPoint x="230" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-24" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mTiminrRkidIak2jVwdM-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="400" as="sourcePoint" />
+            <mxPoint x="270" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.051;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="mTiminrRkidIak2jVwdM-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTiminrRkidIak2jVwdM-26" edge="1" parent="1" source="mTiminrRkidIak2jVwdM-5" style="endArrow=none;html=1;rounded=0;entryX=0.017;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" target="mTiminrRkidIak2jVwdM-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3xfzj86F6dUjk_Y_nMJf" name="BDD">
+    <mxGraphModel dx="1348" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
